@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Fauzan Saipul Juhri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+<body class="bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100">
+
+    <header class="fixed top-0 left-0 right-0 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-md z-50 border-b border-neutral-200 dark:border-neutral-800">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-xl font-serif tracking-wide">Fauzan.</a>
+                <nav class="hidden md:flex space-x-8 text-sm">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="school.html" class="nav-link">School</a>
+                    <a href="gallery.html" class="nav-link active-nav">Gallery</a>
+                    <a href="friends.html" class="nav-link">Friends</a>
+                    <a href="achievements.html" class="nav-link">Achievements</a>
+                    <a href="timeline.html" class="nav-link">Timeline</a>
+                    <a href="quotes.html" class="nav-link">Quotes</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+                <div class="flex items-center gap-3">
+                    <button id="themeToggle" class="w-9 h-9 rounded-full border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition">
+                        <i class="fas fa-moon dark:fa-sun text-neutral-600 dark:text-neutral-400"></i>
+                    </button>
+                    <button id="menuBtn" class="md:hidden w-9 h-9 rounded-full border border-neutral-300 dark:border-neutral-700">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobileMenu" class="fixed inset-0 bg-white dark:bg-neutral-900 z-50 transform -translate-x-full transition-transform duration-300">
+        <div class="flex justify-end p-6"><button id="closeMenuBtn" class="w-10 h-10 rounded-full border border-neutral-300 dark:border-neutral-700"><i class="fas fa-times"></i></button></div>
+        <div class="flex flex-col items-center gap-6 text-lg mt-20">
+            <a href="index.html" class="mobile-link">Home</a><a href="about.html" class="mobile-link">About</a>
+            <a href="school.html" class="mobile-link">School</a><a href="gallery.html" class="mobile-link">Gallery</a>
+            <a href="friends.html" class="mobile-link">Friends</a><a href="achievements.html" class="mobile-link">Achievements</a>
+            <a href="timeline.html" class="mobile-link">Timeline</a><a href="quotes.html" class="mobile-link">Quotes</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h1 class="text-4xl md:text-5xl font-serif font-bold">Gallery Kenangan</h1>
+                <div class="w-12 h-px bg-neutral-400 mx-auto mt-4 mb-6"></div>
+                <p class="text-neutral-500 dark:text-neutral-400">Momen-momen berharga selama masa sekolah</p>
+            </div>
+
+            <div id="galleryContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" data-aos="fade-up">
+                <!-- Gallery akan diisi JavaScript -->
+            </div>
+
+            <!-- Tombol tambah foto -->
+            <div class="text-center mt-12">
+                <button id="addPhotoBtn" class="px-6 py-2 border border-neutral-400 dark:border-neutral-600 text-sm hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-neutral-900 transition">
+                    + Tambah Foto
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-8 border-t border-neutral-200 dark:border-neutral-800">
+        <div class="max-w-6xl mx-auto px-6 text-center text-sm text-neutral-500">
+            <p>© 2024 Fauzan Saipul Juhri — Setiap foto menyimpan cerita</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
