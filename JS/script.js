@@ -29,10 +29,7 @@ let achievements = JSON.parse(localStorage.getItem('achievementsData')) || [
 ];
 
 let timeline = JSON.parse(localStorage.getItem('timelineData')) || [
-    { year: '2021', title: 'Pertama Masuk SMK', desc: 'Masa adaptasi di lingkungan baru, mengenal teman-teman' },
-    { year: '2022', title: 'Mulai Aktif Berorganisasi', desc: 'Bergabung dengan ekstrakurikuler desain dan fotografi' },
-    { year: '2023', title: 'Lomba & Prestasi', desc: 'Mengikuti berbagai lomba desain dan mulai serius belajar' },
-    { year: '2024', title: 'Persiapan Masa Depan', desc: 'Mempersiapkan portofolio untuk dunia kerja/kuliah' }
+    
 ];
 
 let quotes = JSON.parse(localStorage.getItem('quotesData')) || [
