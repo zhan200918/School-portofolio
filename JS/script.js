@@ -460,8 +460,8 @@ if (editSocialBtn) {
         const wa = prompt('Link WhatsApp (contoh: https://wa.me/628123456789):', document.getElementById('whatsappLink')?.href);
         
         if (ig && document.getElementById('instagramLink')) document.getElementById('instagramLink').href = ig;
-        if (gh && document.getElementById('githubLink')) document.getElementById('githubLink').href = gh;
-        if (wa && document.getElementById('whatsappLink')) document.getElementById('whatsappLink').href = wa;
+        if (gh && document.getElementById('githubLink')) document.getElementById('https://github.com/zhan200918').href = gh;
+        if (wa && document.getElementById('whatsappLink')) document.getElementById('https://wa.me/6285891327504').href = wa;
         
         localStorage.setItem('socialLinks', JSON.stringify({
             instagram: document.getElementById('instagramLink')?.href,
