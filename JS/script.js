@@ -18,16 +18,14 @@ let galleryImages = JSON.parse(localStorage.getItem('galleryImages')) || [
 ];
 
 let friends = JSON.parse(localStorage.getItem('friendsData')) || [
-    { name: 'Ahmad Rizki', role: 'Partner in Crime', initial: 'AR' },
-    { name: 'Siti Nurhaliza', role: 'Creative Partner', initial: 'SN' },
-    { name: 'Muhammad Fikri', role: 'Gaming Buddy', initial: 'MF' },
-    { name: 'Dewi Lestari', role: 'Study Group', initial: 'DL' }
+    { name: 'Davin Arkananta', role: 'dapin', initial: 'DA' },
+    { name: 'Abibanyu Altairu', role: 'biu', initial: 'AA' },
+    { name: 'Azzam Kurniawan', role: 'jems', initial: 'Ak' },
+    { name: 'Farhan Sychrezy', role: 'boang', initial: 'FS' }
 ];
 
 let achievements = JSON.parse(localStorage.getItem('achievementsData')) || [
-    { title: 'Juara 1 Lomba Desain Poster Tingkat Kota', year: '2023', desc: 'Lomba yang diselenggarakan oleh Dinas Pendidikan' },
-    { title: 'Finalis Olimpiade Multimedia', year: '2024', desc: 'Mewakili sekolah di tingkat provinsi' },
-    { title: 'Siswa Berprestasi Bidang Kreatif', year: '2024', desc: 'Penghargaan dari sekolah atas dedikasi di bidang DKV' }
+   
 ];
 
 let timeline = JSON.parse(localStorage.getItem('timelineData')) || [
