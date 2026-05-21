@@ -9,7 +9,7 @@ AOS.init({
 
 // ==================== DATA STORAGE KEYS ====================
 let galleryImages = JSON.parse(localStorage.getItem('galleryImages')) || [
-    'https://picsum.photos/id/20/400/300',
+    'https://adriancloud.my.id/files/file-1779336523.jpeg',
     'https://picsum.photos/id/26/400/300',
     'https://picsum.photos/id/28/400/300',
     'https://picsum.photos/id/30/400/300',
