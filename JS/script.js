@@ -21,7 +21,10 @@ let friends = JSON.parse(localStorage.getItem('friendsData')) || [
     { name: 'Davin Arkananta', role: 'dapin', initial: 'DA' },
     { name: 'Abibanyu Altairu', role: 'biu', initial: 'AA' },
     { name: 'Azzam Kurniawan', role: 'jems', initial: 'Ak' },
-    { name: 'Farhan Sychrezy', role: 'boang', initial: 'FS' }
+    { name: 'Farhan Sychrezy', role: 'boang', initial: 'FS' },
+    { name: 'M Zahri', role: 'jahri', initial: 'MZ' },
+    { name: 'M Fahrel Rauzan', role: 'fahrel', initial: 'FR' },
+    { name: 'Abid Ramadhan', role: 'Abud', initial: 'AR' }
 ];
 
 let achievements = JSON.parse(localStorage.getItem('achievementsData')) || [
