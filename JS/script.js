@@ -38,7 +38,8 @@ let timeline = JSON.parse(localStorage.getItem('timelineData')) || [
 let quotes = JSON.parse(localStorage.getItem('quotesData')) || [
     { text: 'Pendidikan adalah senjata paling ampuh untuk mengubah dunia.', author: 'Nelson Mandela' },
     { text: 'Jadilah versi terbaik dari dirimu sendiri.', author: 'Unknown' },
-    { text: 'Kesuksesan dimulai dari keberanian untuk mencoba.', author: 'Motivasi' }
+    { text: 'Kesuksesan dimulai dari keberanian untuk mencoba.', author: 'Motivasi' },
+    { teks: ' Sekolah Bukan sekadar mencari nilai, tapi mencari ilmu dan cerita yang akan dikenang nanti.', author: 'Fauzan'}
 ];
 
 // ==================== PASSWORD PROTECTION ====================
